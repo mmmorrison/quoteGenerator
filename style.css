@@ -27,15 +27,24 @@ body{
     background-size:cover;
 }
 .imageCycle6{
+    background:url(images/PurpleEvening.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.imageCycle7{
     background:url(images/PurpleTreasure.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.imageCycle8{
+    background:url(images/Rainbow.jpg);
     background-repeat:no-repeat;
     background-size:cover;
 }
 .content{
   width: 50vw;
   border-radius:20px;
-  height: 20vh;
-  background:#333;
+  height: 30vh;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -48,4 +57,7 @@ body{
   padding:40px;
   margin:auto;
   text-align:center;
+  font-family: 'Neuton', serif;
+  font-weight: 400;
+  font-size: 2em;
 }
