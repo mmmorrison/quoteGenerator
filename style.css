@@ -1,0 +1,51 @@
+body{
+  background-size:cover;
+}
+.imageCycle1{
+    background: url(images/Beauty.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.imageCycle2{
+    background:url(images/BlueandGreen.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.imageCycle3{
+    background:url(images/Green.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.imageCycle4{
+    background:url(images/MixedFeelings.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.imageCycle5{
+    background:url(images/Orange.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.imageCycle6{
+    background:url(images/PurpleTreasure.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.content{
+  width: 50vw;
+  border-radius:20px;
+  height: 20vh;
+  background:#333;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0,0,0, 0.7);
+}
+.content p{
+  color:white;
+  font-size:20px;
+  padding:40px;
+  margin:auto;
+  text-align:center;
+}
