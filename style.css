@@ -41,6 +41,16 @@ body{
     background-repeat:no-repeat;
     background-size:cover;
 }
+.imageCycle9{
+    background:url(images/Red.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.imageCycle10{
+    background:url(images/Vivid.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
 .content{
   width: 50vw;
   border-radius:20px;
