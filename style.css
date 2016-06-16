@@ -3,8 +3,8 @@ body{
 }
 .imageCycle1{
     background: url(images/Beauty.jpg);
-    background-repeat:no-repeat;
-    background-size:cover;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .imageCycle2{
     background:url(images/BlueandGreen.jpg);
