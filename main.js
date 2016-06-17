@@ -4,4 +4,12 @@ $(document).ready(function(){
   var classToAdd = classCycle[randomNumber];
   $('body').addClass(classToAdd);
 
+  $('.new').on('click', function() {
+    var id = Math.floor(Math.random() * 7);
+    $.getJSON("https://quotes-generator.herokuapp.com/random/:" + id, function(result) {
+      console.log(result);
+      $('.content').html(JSON.stringify(result));
+
+    })
+  });
 });

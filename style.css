@@ -73,15 +73,15 @@ body{
 .title{
   font-style: italic;
 }
-button{
-  border-radius:20px;
+.new{
+  border-radius: 10px;
   position: fixed;
   top: 70%;
   left: 50%;
   height: 5vh;
   transform: translate(-50%, -50%);
   background-color: #000000;
-  color: #045649;
+  color: white;
   margin-top: 2%;
   border-color: #000000;
 
