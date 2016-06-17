@@ -15,18 +15,4 @@ $(document).ready(function(){
       $('.title').html(result.book)
     })
   });
-
-  function getQuote(){
-    $.ajax({
-      url: rando,
-      success: function(response) {
-        console.log(response);
-        var r = JSON.parse(response);
-        currentQuote = r.quote;
-        currentAuthor = r.author;
-        if(inIframe())
-      }
-    });
-  }
-
 });
