@@ -55,20 +55,19 @@ body{
   width: 50vw;
   border-radius:20px;
   position: fixed;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: rgba(0,0,0, 0.7);
 }
 .content p{
   color: white;
-  font-size:20px;
-  padding:40px;
+  padding:25px;
   margin:auto;
   text-align:center;
   font-family: 'Cormorant Infant', serif;
   font-weight: 400;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 .title{
   font-style: italic;
@@ -76,7 +75,7 @@ body{
 .new{
   border-radius: 10px;
   position: fixed;
-  top: 70%;
+  top: 75%;
   left: 50%;
   height: 5vh;
   transform: translate(-50%, -50%);
@@ -84,5 +83,12 @@ body{
   color: white;
   margin-top: 2%;
   border-color: #000000;
-
+  text-align: center;
+  margin: 0 auto;
+}
+.author{
+  padding: 3% !important;
+}
+.title{
+  font-style: italic;
 }
