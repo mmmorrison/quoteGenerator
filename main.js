@@ -3,6 +3,8 @@ $(document).ready(function(){
   var randomNumber = Math.floor(Math.random() * classCycle.length);
   var classToAdd = classCycle[randomNumber];
 
+  getQuote()
+
   function openURL(url){
   window.open(url, 'Share', 'width=550, height=400, toolbar=0, scrollbars=1 ,location=0 ,statusbar=0,menubar=0, resizable=0');
 };
@@ -32,11 +34,9 @@ function getQuote(){
     $('.author').append(author);
 
     $('.tweet').on('click', function() {
-      openURL('https://twitter.com/intent/tweet?hashtags=quotes&related=mmm5225&text=' + encodeURIComponent('"' + quote + '" ' + author));
+      openURL('https://twitter.com/intent/tweet?hashtags=quotes&related=mmm5225&text=' + encodeURIComponent(quote + author));
     })
 
-    $('.tweet').attr('href', 'https://twitter.com/intent/tweet?hashtags=quotes&related=mmm5225&text=' + encodeURIComponent('"' + quote + '" ' + author));
-    $('.tumblr').attr('href', 'https://www.tumblr.com/widgets/share/tool?posttype=quote&tags=quotes,mmm5225&caption='+encodeURIComponent(author)+'&content=' + encodeURIComponent(quote));
-
+    $('.tweet').attr('href', 'https://twitter.com/intent/tweet?hashtags=quotes&related=mmm5225&text=' + encodeURIComponent(quote + author));
   });
 }

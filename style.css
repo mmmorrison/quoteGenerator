@@ -95,21 +95,12 @@ button:focus{
 .title{
   font-style: italic;
 }
-.fa-twitter{
+.fa{
   display:inline-block;
-  color:white;
+  color: black;
   position: fixed;
-  top: 85%;
-  left: 45%;
-}
-.fa-tumblr{
-  display:inline-block;
-  color:white;
-  position: fixed;
-  top: 85%;
-  left: 53%;
-}
-span{
+  top: 51%;
+  left: 33%;
+  font-size: 600px;
   padding: 15%;
-  margin-top: 10% !important;
 }
