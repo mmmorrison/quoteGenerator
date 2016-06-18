@@ -86,8 +86,11 @@ body{
   text-align: center;
   margin: 0 auto;
 }
+button:focus{
+  outline:0;
+}
 .author{
-  padding: 3% !important;
+  padding: 5% !important;
 }
 .title{
   font-style: italic;
@@ -108,5 +111,5 @@ body{
 }
 span{
   padding: 15%;
-  margin-top: 10%;
+  margin-top: 10% !important;
 }
