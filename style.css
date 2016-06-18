@@ -99,8 +99,7 @@ button:focus{
   display:inline-block;
   color: black;
   position: fixed;
-  top: 51%;
-  left: 33%;
-  font-size: 600px;
-  padding: 15%;
+  top: 76%;
+  left: 47%;
+  padding: 1%;
 }
