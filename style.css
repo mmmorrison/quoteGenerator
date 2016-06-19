@@ -103,3 +103,8 @@ button:focus{
   left: 47%;
   padding: 1%;
 }
+.fa-spinner{
+  color: white;
+  position: fixed;
+  top: 45%;
+}
