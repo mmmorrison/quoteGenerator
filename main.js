@@ -17,7 +17,7 @@ $(document).ready(function(){
 });
 
 function getQuote(){
-  var id = Math.floor(Math.random() * 25);
+  var id = Math.floor(Math.random() * 27);
   var retrieveData = $.ajax({
     url: "https://quotes-generator.herokuapp.com/random/" + id,
     type: 'GET',
